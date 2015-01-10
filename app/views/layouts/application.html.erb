@@ -6,9 +6,14 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+<!-- <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> -->
+<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+<link href="//libs.baidu.com/fontawesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href='http://fonts.useso.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <body>
 
-<%= yield %>
-
+<div class="container">
+  <%= yield %>
+</div>
 </body>
 </html>
